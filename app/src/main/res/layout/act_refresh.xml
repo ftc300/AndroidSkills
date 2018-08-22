@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_scroll"
+        android:text="Scroll Example"
+        style="@style/main_btn_style" />
+    <Button
+        android:id="@+id/btn_list"
+        android:text="Listview Example"
+        style="@style/main_btn_style" />
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>

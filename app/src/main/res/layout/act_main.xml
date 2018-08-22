@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ftc300.androidskills.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_mvp"
+        android:text="MVP Example"
+        style="@style/main_btn_style" />
+
+    <Button
+        android:id="@+id/btn_dagger2"
+        android:text="Dagger2 Example"
+        style="@style/main_btn_style" />
+
+    <Button
+        android:id="@+id/btn_swipe"
+        android:text="Swipe Back Example"
+        style="@style/main_btn_style" />
+
+    <Button
+        android:id="@+id/btn_auto"
+        android:text="Auto Adaptive Example"
+        style="@style/main_btn_style" />
+
+    <Button
+        android:id="@+id/btn_refresh"
+        android:text="Refresh Example"
+        style="@style/main_btn_style" />
+
+    </LinearLayout>
+</ScrollView>

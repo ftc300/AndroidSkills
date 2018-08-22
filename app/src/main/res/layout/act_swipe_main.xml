@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ftc300.androidskills.MainActivity">
+
+    <Button
+        android:id="@+id/btn_webview"
+        style="@style/main_btn_style"
+        android:text="Webview Example" />
+
+    <Button
+        android:id="@+id/btn_list"
+        style="@style/main_btn_style"
+        android:text="Listview Example" />
+
+    <Button
+        android:id="@+id/btn_viewpage"
+        style="@style/main_btn_style"
+        android:text="Viewpage Example" />
+
+</LinearLayout>
