@@ -35,5 +35,10 @@
         android:text="Refresh Example"
         style="@style/main_btn_style" />
 
+    <Button
+        android:id="@+id/btn_rxjava2"
+        android:text="Rxjava2 Example"
+        style="@style/main_btn_style" />
+
     </LinearLayout>
 </ScrollView>

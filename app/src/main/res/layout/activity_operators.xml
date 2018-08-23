@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startSimpleActivity"
+            android:text="simple"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startMapActivity"
+            android:text="map"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startZipActivity"
+            android:text="zip"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startDisposableActivity"
+            android:text="disposable"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startTakeActivity"
+            android:text="take"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startTimerActivity"
+            android:text="timer"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startIntervalActivity"
+            android:text="interval"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startSingleObserverActivity"
+            android:text="SingleObserver"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startCompletableObserverActivity"
+            android:text="CompletableObserver"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startFlowableActivity"
+            android:text="Flowable"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startReduceActivity"
+            android:text="reduce"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startBufferActivity"
+            android:text="buffer"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startFilterActivity"
+            android:text="filter"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startSkipActivity"
+            android:text="skip"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startScanActivity"
+            android:text="scan"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startReplayActivity"
+            android:text="replay"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startConcatActivity"
+            android:text="concat"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startMergeActivity"
+            android:text="merge"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startDeferActivity"
+            android:text="defer"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startDistinctActivity"
+            android:text="distinct"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startLastOperatorActivity"
+            android:text="last"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startReplaySubjectActivity"
+            android:text="replay_subject"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startPublishSubjectActivity"
+            android:text="publish_subject"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startBehaviorSubjectActivity"
+            android:text="behavior_subject"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startAsyncSubjectActivity"
+            android:text="async_subject"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startThrottleFirstActivity"
+            android:text="throttle_first"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startThrottleLastActivity"
+            android:text="throttle_last"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startDebounceActivity"
+            android:text="debounce"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startWindowActivity"
+            android:text="window"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startDelayActivity"
+            android:text="delay"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startSwitchMapActivity"
+            android:text="switch_map"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+</ScrollView>

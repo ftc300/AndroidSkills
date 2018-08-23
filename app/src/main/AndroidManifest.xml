@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:name=".App"
@@ -25,6 +25,119 @@
         <activity android:name=".swipeback.SwipeWebViewAct" />
         <activity android:name=".autoadaptive.AutoRecyclerAct" />
         <activity android:name=".swiperefresh.RefreshAct" />
+        <activity
+            android:name=".rxjava2.ui.OperatorsActivity"
+            android:label="operators" />
+        <activity
+            android:name=".rxjava2.ui.SelectionActivity"
+            android:label="select" />
+        <activity
+            android:name=".rxjava2.ui.networking.NetworkingActivity"
+            android:label="networking" />
+        <activity
+            android:name=".rxjava2.ui.rxbus.RxBusActivity"
+            android:label="rx_bus" />
+        <activity
+            android:name=".rxjava2.ui.pagination.PaginationActivity"
+            android:label="pagination" />
+        <activity
+            android:name=".rxjava2.ui.search.SearchActivity"
+            android:label="search" />
+        <activity
+            android:name=".rxjava2.ui.operators.SimpleExampleActivity"
+            android:label="simple" />
+        <activity
+            android:name=".rxjava2.ui.operators.MapExampleActivity"
+            android:label="map" />
+        <activity
+            android:name=".rxjava2.ui.operators.ZipExampleActivity"
+            android:label="zip" />
+        <activity
+            android:name=".rxjava2.ui.operators.DisposableExampleActivity"
+            android:label="disposable" />
+        <activity
+            android:name=".rxjava2.ui.operators.TakeExampleActivity"
+            android:label="take" />
+        <activity
+            android:name=".rxjava2.ui.operators.TimerExampleActivity"
+            android:label="timer" />
+        <activity
+            android:name=".rxjava2.ui.operators.IntervalExampleActivity"
+            android:label="interval" />
+        <activity
+            android:name=".rxjava2.ui.operators.SingleObserverExampleActivity"
+            android:label="SingleObserver" />
+        <activity
+            android:name=".rxjava2.ui.operators.CompletableObserverExampleActivity"
+            android:label="CompletableObserver" />
+        <activity
+            android:name=".rxjava2.ui.operators.FlowableExampleActivity"
+            android:label="Flowable" />
+        <activity
+            android:name=".rxjava2.ui.operators.ReduceExampleActivity"
+            android:label="reduce" />
+        <activity
+            android:name=".rxjava2.ui.operators.BufferExampleActivity"
+            android:label="buffer" />
+        <activity
+            android:name=".rxjava2.ui.operators.FilterExampleActivity"
+            android:label="filter" />
+        <activity
+            android:name=".rxjava2.ui.operators.SkipExampleActivity"
+            android:label="skip" />
+        <activity
+            android:name=".rxjava2.ui.operators.ScanExampleActivity"
+            android:label="scan" />
+        <activity
+            android:name=".rxjava2.ui.operators.ReplayExampleActivity"
+            android:label="replay" />
+        <activity
+            android:name=".rxjava2.ui.operators.ConcatExampleActivity"
+            android:label="concat" />
+        <activity
+            android:name=".rxjava2.ui.operators.MergeExampleActivity"
+            android:label="merge" />
+        <activity
+            android:name=".rxjava2.ui.operators.DeferExampleActivity"
+            android:label="defer" />
+        <activity
+            android:name=".rxjava2.ui.operators.DistinctExampleActivity"
+            android:label="distinct" />
+        <activity
+            android:name=".rxjava2.ui.operators.LastOperatorExampleActivity"
+            android:label="last" />
+        <activity
+            android:name=".rxjava2.ui.operators.ReplaySubjectExampleActivity"
+            android:label="replay_subject" />
+        <activity
+            android:name=".rxjava2.ui.operators.PublishSubjectExampleActivity"
+            android:label="publish_subject" />
+        <activity
+            android:name=".rxjava2.ui.operators.BehaviorSubjectExampleActivity"
+            android:label="behavior_subject" />
+        <activity
+            android:name=".rxjava2.ui.operators.AsyncSubjectExampleActivity"
+            android:label="async_subject" />
+        <activity
+            android:name=".rxjava2.ui.operators.ThrottleLastExampleActivity"
+            android:label="throttle_last" />
+        <activity
+            android:name=".rxjava2.ui.operators.DebounceExampleActivity"
+            android:label="debounce" />
+        <activity
+            android:name=".rxjava2.ui.operators.WindowExampleActivity"
+            android:label="window" />
+        <activity
+            android:name=".rxjava2.ui.operators.ThrottleFirstExampleActivity"
+            android:label="throttle_first" />
+        <activity
+            android:name=".rxjava2.ui.operators.DelayExampleActivity"
+            android:label="delay" />
+        <activity
+            android:name=".rxjava2.ui.compose.ComposeOperatorExampleActivity"
+            android:label="compose" />
+        <activity android:name=".rxjava2.ui.operators.SwitchMapExampleActivity"
+            android:label="switch_map" />
     </application>
 
 </manifest>
