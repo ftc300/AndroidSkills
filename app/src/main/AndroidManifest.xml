@@ -25,6 +25,7 @@
         <activity android:name=".swipeback.SwipeWebViewAct" />
         <activity android:name=".autoadaptive.AutoRecyclerAct" />
         <activity android:name=".swiperefresh.RefreshAct" />
+        <activity android:name=".mybutterknife.MyButterKnifeAct" />
         <activity
             android:name=".rxjava2.ui.OperatorsActivity"
             android:label="operators" />

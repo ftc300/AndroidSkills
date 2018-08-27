@@ -11,6 +11,11 @@
         android:orientation="vertical">
 
     <Button
+        android:id="@+id/btn_mybutterknife"
+        android:text="My ButterKnife Example"
+        style="@style/main_btn_style" />
+
+    <Button
         android:id="@+id/btn_mvp"
         android:text="MVP Example"
         style="@style/main_btn_style" />

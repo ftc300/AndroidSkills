@@ -9,10 +9,11 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.ftc300.androidskills.autoadaptive.AutoRecyclerAct;
-import com.ftc300.androidskills.concurrent.FBus;
-import com.ftc300.androidskills.concurrent.MainBus;
+import com.ftc300.androidskills.concurrent.MyEventBus.FBus;
+import com.ftc300.androidskills.concurrent.MyEventBus.MainBus;
 import com.ftc300.androidskills.dagger2.Dagger2Act;
 import com.ftc300.androidskills.mvp.MvpAct;
+import com.ftc300.androidskills.mybutterknife.MyButterKnifeAct;
 import com.ftc300.androidskills.rxjava2.ui.SelectionActivity;
 import com.ftc300.androidskills.swipeback.SwipeMainAct;
 import com.ftc300.androidskills.swiperefresh.RefreshAct;
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, b.toString());
     }
 
-    @OnClick({R.id.btn_mvp, R.id.btn_dagger2,R.id.btn_swipe,R.id.btn_auto ,R.id.btn_refresh,R.id.btn_rxjava2})
+    @OnClick({R.id.btn_mvp, R.id.btn_dagger2,R.id.btn_swipe,R.id.btn_auto ,R.id.btn_refresh,R.id.btn_rxjava2,R.id.btn_mybutterknife})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_mvp:
@@ -96,6 +97,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_rxjava2:
                 switchTo(SelectionActivity.class);
+                break;
+
+            case R.id.btn_mybutterknife:
+                switchTo(MyButterKnifeAct.class);
                 break;
         }
     }

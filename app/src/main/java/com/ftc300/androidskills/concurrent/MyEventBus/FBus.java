@@ -1,4 +1,4 @@
-package com.ftc300.androidskills.concurrent;
+package com.ftc300.androidskills.concurrent.MyEventBus;
 
 
 import android.util.Log;
