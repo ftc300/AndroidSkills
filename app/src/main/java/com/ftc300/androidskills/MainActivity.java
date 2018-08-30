@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.ftc300.androidskills.async.LiteAsyncSamplesActivity;
 import com.ftc300.androidskills.autoadaptive.AutoRecyclerAct;
 import com.ftc300.androidskills.concurrent.MyEventBus.FBus;
 import com.ftc300.androidskills.concurrent.MyEventBus.MainBus;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, b.toString());
     }
 
-    @OnClick({R.id.btn_mvp, R.id.btn_dagger2,R.id.btn_swipe,R.id.btn_auto ,R.id.btn_refresh,R.id.btn_rxjava2,R.id.btn_mybutterknife})
+    @OnClick({R.id.btn_mvp, R.id.btn_dagger2,R.id.btn_swipe,R.id.btn_auto ,R.id.btn_refresh,R.id.btn_rxjava2,R.id.btn_mybutterknife,R.id.btn_async})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_mvp:
@@ -101,6 +102,10 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.btn_mybutterknife:
                 switchTo(MyButterKnifeAct.class);
+                break;
+
+            case R.id.btn_async:
+                switchTo(LiteAsyncSamplesActivity.class);
                 break;
         }
     }

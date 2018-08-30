@@ -45,5 +45,10 @@
         android:text="Rxjava2 Example"
         style="@style/main_btn_style" />
 
+    <Button
+        android:id="@+id/btn_async"
+        android:text="LiteAsync Example"
+        style="@style/main_btn_style" />
+
     </LinearLayout>
 </ScrollView>
