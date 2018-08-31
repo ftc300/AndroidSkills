@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ftc300.androidskills">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,6 +30,10 @@
         <activity android:name=".swiperefresh.RefreshAct" />
         <activity android:name=".mybutterknife.MyButterKnifeAct" />
         <activity android:name=".async.LiteAsyncSamplesActivity" />
+        <activity android:name=".liteorm.SingleTestActivity" />
+        <activity android:name=".liteorm.CascadeTestActivity" />
+        <activity android:name=".liteorm.OrmMainActivity" />
+        <activity android:name=".go.GoMainAct" />
         <activity
             android:name=".rxjava2.ui.OperatorsActivity"
             android:label="operators" />

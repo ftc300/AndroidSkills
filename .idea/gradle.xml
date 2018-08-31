@@ -11,7 +11,9 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/async-lib" />
             <option value="$PROJECT_DIR$/common-lib" />
-            <option value="$PROJECT_DIR$/lib" />
+            <option value="$PROJECT_DIR$/go-lib" />
+            <option value="$PROJECT_DIR$/java-test-lib" />
+            <option value="$PROJECT_DIR$/orm-lib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

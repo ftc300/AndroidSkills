@@ -6,7 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/async-lib/async-lib.iml" filepath="$PROJECT_DIR$/async-lib/async-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-lib/common-lib.iml" filepath="$PROJECT_DIR$/common-lib/common-lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/go-lib/go-lib.iml" filepath="$PROJECT_DIR$/go-lib/go-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-test-lib/java-test-lib.iml" filepath="$PROJECT_DIR$/java-test-lib/java-test-lib.iml" />
+      <module fileurl="file://D:\workspace\Android\AndroidSkills\java-test-lib\lib.iml" filepath="D:\workspace\Android\AndroidSkills\java-test-lib\lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm-lib/orm-lib.iml" filepath="$PROJECT_DIR$/orm-lib/orm-lib.iml" />
     </modules>
   </component>
 </project>

@@ -1,1 +1,1 @@
-include ':app', ':async-lib', ':common-lib', ':lib'
+include ':app', ':async-lib', ':common-lib', ':java-test-lib', ':orm-lib', ':go-lib'

@@ -50,5 +50,15 @@
         android:text="LiteAsync Example"
         style="@style/main_btn_style" />
 
+    <Button
+        android:id="@+id/btn_orm"
+        android:text="Orm Example"
+        style="@style/main_btn_style" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:text="Go Example"
+        style="@style/main_btn_style" />
+
     </LinearLayout>
 </ScrollView>

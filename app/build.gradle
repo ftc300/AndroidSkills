@@ -42,4 +42,6 @@ dependencies {
     implementation 'com.amitshekhar.android:rx2-android-networking:1.0.0'
     implementation project(':async-lib')
     implementation project(':common-lib')
+    implementation project(':orm-lib')
+    implementation project(path: ':go-lib')
 }
