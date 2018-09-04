@@ -6,6 +6,7 @@ import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.ftc300.androidskills.async.LiteAsyncSamplesActivity;
@@ -27,10 +28,13 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
+    @BindView(R.id.btn_mybutterknife)
+    Button btnMybutterknife;
     private String TAG = MainActivity.class.getSimpleName();
     public static Lock lock = new ReentrantLock();
     public static Condition condition = lock.newCondition();

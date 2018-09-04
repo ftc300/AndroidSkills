@@ -1,4 +1,4 @@
-package inso.com.lib;
+package inso.com.lib.mutilthread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -8,12 +8,14 @@ import java.util.concurrent.FutureTask;
 
 /**
  * Comment:
+ * AsyncTask的多线程任务是通过线程池实现的工作线程，在完成任务后利用Future的done回调来通知任务完成，
+ * 并通过handler机制通知主线程去执行onPostExecute等回调函数。
  * Author: ftc300
  * Date: 2018/8/30
  * Blog: www.ftc300.pub
  * GitHub: https://github.com/ftc300
  */
-public class FuturetaskExample {
+public class AsyncTask______FuturetaskExample {
     public static void main(String[] args) {
         Task task = new Task();// 新建异步任务
         FutureTask<Integer> future = new FutureTask<Integer>(task) {

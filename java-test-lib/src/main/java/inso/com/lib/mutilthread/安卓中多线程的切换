@@ -1,0 +1,4 @@
+小小总结一下，基本上来说，Android中的多线程切换，主要使用Runnable和Callable来定义工作内容，
+使用线程池来实现异步并行，使用Handler机制来通知主线程，有些场景下会视情况需要，使用Future的接口回调，
+使用SynchronousQueue阻塞队列等。
+
